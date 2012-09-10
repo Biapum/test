@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD85818C15FE5103005D8A1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD85818B15FE5103005D8A1E /* UIKit.framework */; };
+		CD85818E15FE5103005D8A1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD85818D15FE5103005D8A1E /* Foundation.framework */; };
+		CD85819015FE5103005D8A1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD85818F15FE5103005D8A1E /* CoreGraphics.framework */; };
+		CD85819215FE5103005D8A1E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD85819115FE5103005D8A1E /* CoreData.framework */; };
+		CD85819815FE5104005D8A1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD85819615FE5104005D8A1E /* InfoPlist.strings */; };
+		CD85819A15FE5104005D8A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85819915FE5104005D8A1E /* main.m */; };
+		CD85819E15FE5104005D8A1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85819D15FE5104005D8A1E /* AppDelegate.m */; };
+		CD8581A115FE5104005D8A1E /* PianoKids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD85819F15FE5104005D8A1E /* PianoKids.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD85818715FE5103005D8A1E /* PianoKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD85818B15FE5103005D8A1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD85818D15FE5103005D8A1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD85818F15FE5103005D8A1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD85819115FE5103005D8A1E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD85819515FE5104005D8A1E /* PianoKids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PianoKids-Info.plist"; sourceTree = "<group>"; };
+		CD85819715FE5104005D8A1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD85819915FE5104005D8A1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD85819B15FE5104005D8A1E /* PianoKids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PianoKids-Prefix.pch"; sourceTree = "<group>"; };
+		CD85819C15FE5104005D8A1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD85819D15FE5104005D8A1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD8581A015FE5104005D8A1E /* PianoKids.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PianoKids.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD85818415FE5103005D8A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD85818C15FE5103005D8A1E /* UIKit.framework in Frameworks */,
+				CD85818E15FE5103005D8A1E /* Foundation.framework in Frameworks */,
+				CD85819015FE5103005D8A1E /* CoreGraphics.framework in Frameworks */,
+				CD85819215FE5103005D8A1E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD85817C15FE5103005D8A1E = {
+			isa = PBXGroup;
+			children = (
+				CD85819315FE5103005D8A1E /* PianoKids */,
+				CD85818A15FE5103005D8A1E /* Frameworks */,
+				CD85818815FE5103005D8A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD85818815FE5103005D8A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD85818715FE5103005D8A1E /* PianoKids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD85818A15FE5103005D8A1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD85818B15FE5103005D8A1E /* UIKit.framework */,
+				CD85818D15FE5103005D8A1E /* Foundation.framework */,
+				CD85818F15FE5103005D8A1E /* CoreGraphics.framework */,
+				CD85819115FE5103005D8A1E /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD85819315FE5103005D8A1E /* PianoKids */ = {
+			isa = PBXGroup;
+			children = (
+				CD85819C15FE5104005D8A1E /* AppDelegate.h */,
+				CD85819D15FE5104005D8A1E /* AppDelegate.m */,
+				CD85819F15FE5104005D8A1E /* PianoKids.xcdatamodeld */,
+				CD85819415FE5104005D8A1E /* Supporting Files */,
+			);
+			path = PianoKids;
+			sourceTree = "<group>";
+		};
+		CD85819415FE5104005D8A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD85819515FE5104005D8A1E /* PianoKids-Info.plist */,
+				CD85819615FE5104005D8A1E /* InfoPlist.strings */,
+				CD85819915FE5104005D8A1E /* main.m */,
+				CD85819B15FE5104005D8A1E /* PianoKids-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD85818615FE5103005D8A1E /* PianoKids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8581A415FE5104005D8A1E /* Build configuration list for PBXNativeTarget "PianoKids" */;
+			buildPhases = (
+				CD85818315FE5103005D8A1E /* Sources */,
+				CD85818415FE5103005D8A1E /* Frameworks */,
+				CD85818515FE5103005D8A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoKids;
+			productName = PianoKids;
+			productReference = CD85818715FE5103005D8A1E /* PianoKids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD85817E15FE5103005D8A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Valenti;
+			};
+			buildConfigurationList = CD85818115FE5103005D8A1E /* Build configuration list for PBXProject "PianoKids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD85817C15FE5103005D8A1E;
+			productRefGroup = CD85818815FE5103005D8A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD85818615FE5103005D8A1E /* PianoKids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD85818515FE5103005D8A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD85819815FE5104005D8A1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD85818315FE5103005D8A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD85819A15FE5104005D8A1E /* main.m in Sources */,
+				CD85819E15FE5104005D8A1E /* AppDelegate.m in Sources */,
+				CD8581A115FE5104005D8A1E /* PianoKids.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD85819615FE5104005D8A1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD85819715FE5104005D8A1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD8581A215FE5104005D8A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD8581A315FE5104005D8A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8581A515FE5104005D8A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PianoKids/PianoKids-Prefix.pch";
+				INFOPLIST_FILE = "PianoKids/PianoKids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD8581A615FE5104005D8A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PianoKids/PianoKids-Prefix.pch";
+				INFOPLIST_FILE = "PianoKids/PianoKids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD85818115FE5103005D8A1E /* Build configuration list for PBXProject "PianoKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8581A215FE5104005D8A1E /* Debug */,
+				CD8581A315FE5104005D8A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8581A415FE5104005D8A1E /* Build configuration list for PBXNativeTarget "PianoKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8581A515FE5104005D8A1E /* Debug */,
+				CD8581A615FE5104005D8A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD85819F15FE5104005D8A1E /* PianoKids.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD8581A015FE5104005D8A1E /* PianoKids.xcdatamodel */,
+			);
+			currentVersion = CD8581A015FE5104005D8A1E /* PianoKids.xcdatamodel */;
+			path = PianoKids.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD85817E15FE5103005D8A1E /* Project object */;
+}
