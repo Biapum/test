@@ -15,6 +15,10 @@
 		CD85819A15FE5104005D8A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85819915FE5104005D8A1E /* main.m */; };
 		CD85819E15FE5104005D8A1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85819D15FE5104005D8A1E /* AppDelegate.m */; };
 		CD8581A115FE5104005D8A1E /* PianoKids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD85819F15FE5104005D8A1E /* PianoKids.xcdatamodeld */; };
+		CD8581B815FE51F1005D8A1E /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8581B615FE51F1005D8A1E /* MainPageViewController.m */; };
+		CD8581B915FE51F1005D8A1E /* MainPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8581B715FE51F1005D8A1E /* MainPageViewController.xib */; };
+		CD8581C515FE54FF005D8A1E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8581C415FE54FF005D8A1E /* iAd.framework */; };
+		CD8581CA15FE662E005D8A1E /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8581C915FE662E005D8A1E /* Arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,11 @@
 		CD85819C15FE5104005D8A1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD85819D15FE5104005D8A1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD8581A015FE5104005D8A1E /* PianoKids.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PianoKids.xcdatamodel; sourceTree = "<group>"; };
+		CD8581B515FE51F1005D8A1E /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainPageViewController.h; path = Classes/UI/MainPageVC/MainPageViewController.h; sourceTree = "<group>"; };
+		CD8581B615FE51F1005D8A1E /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPageViewController.m; path = Classes/UI/MainPageVC/MainPageViewController.m; sourceTree = "<group>"; };
+		CD8581B715FE51F1005D8A1E /* MainPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainPageViewController.xib; path = Classes/UI/MainPageVC/MainPageViewController.xib; sourceTree = "<group>"; };
+		CD8581C415FE54FF005D8A1E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		CD8581C915FE662E005D8A1E /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8581C515FE54FF005D8A1E /* iAd.framework in Frameworks */,
 				CD85818C15FE5103005D8A1E /* UIKit.framework in Frameworks */,
 				CD85818E15FE5103005D8A1E /* Foundation.framework in Frameworks */,
 				CD85819015FE5103005D8A1E /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +77,7 @@
 		CD85818A15FE5103005D8A1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD8581C415FE54FF005D8A1E /* iAd.framework */,
 				CD85818B15FE5103005D8A1E /* UIKit.framework */,
 				CD85818D15FE5103005D8A1E /* Foundation.framework */,
 				CD85818F15FE5103005D8A1E /* CoreGraphics.framework */,
@@ -78,6 +89,8 @@
 		CD85819315FE5103005D8A1E /* PianoKids */ = {
 			isa = PBXGroup;
 			children = (
+				CD8581C615FE662E005D8A1E /* Resources */,
+				CD8581B115FE5186005D8A1E /* Classes */,
 				CD85819C15FE5104005D8A1E /* AppDelegate.h */,
 				CD85819D15FE5104005D8A1E /* AppDelegate.m */,
 				CD85819F15FE5104005D8A1E /* PianoKids.xcdatamodeld */,
@@ -95,6 +108,64 @@
 				CD85819B15FE5104005D8A1E /* PianoKids-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD8581B115FE5186005D8A1E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD8581B315FE51B7005D8A1E /* BLL */,
+				CD8581B215FE51B2005D8A1E /* UI */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CD8581B215FE51B2005D8A1E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CD8581B415FE51BD005D8A1E /* MainPage */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		CD8581B315FE51B7005D8A1E /* BLL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BLL;
+			sourceTree = "<group>";
+		};
+		CD8581B415FE51BD005D8A1E /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				CD8581B515FE51F1005D8A1E /* MainPageViewController.h */,
+				CD8581B615FE51F1005D8A1E /* MainPageViewController.m */,
+				CD8581B715FE51F1005D8A1E /* MainPageViewController.xib */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		CD8581C615FE662E005D8A1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD8581C715FE662E005D8A1E /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD8581C715FE662E005D8A1E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD8581C815FE662E005D8A1E /* Demo */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CD8581C815FE662E005D8A1E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CD8581C915FE662E005D8A1E /* Arrow.png */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD85819815FE5104005D8A1E /* InfoPlist.strings in Resources */,
+				CD8581B915FE51F1005D8A1E /* MainPageViewController.xib in Resources */,
+				CD8581CA15FE662E005D8A1E /* Arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +235,7 @@
 				CD85819A15FE5104005D8A1E /* main.m in Sources */,
 				CD85819E15FE5104005D8A1E /* AppDelegate.m in Sources */,
 				CD8581A115FE5104005D8A1E /* PianoKids.xcdatamodeld in Sources */,
+				CD8581B815FE51F1005D8A1E /* MainPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

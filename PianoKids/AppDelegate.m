@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainPageViewController.h"
 
 @implementation AppDelegate
 
@@ -26,8 +27,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+
+    MainPageViewController *mainPageVC = [[MainPageViewController alloc] initWithNibName:@"MainPageViewController" bundle:nil];
+
+    UINavigationController *myNavigationController = [[UINavigationController alloc] initWithRootViewController:mainPageVC];
+     
+    [self.window addSubview:myNavigationController.view];
+    [myNavigationController release];
+    [mainPageVC release];
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
